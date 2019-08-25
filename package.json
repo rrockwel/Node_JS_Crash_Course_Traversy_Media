@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index",
-    "dev": "nodemon index"
-    },
+    "dev": "nodemon index",
+    "browser-sync": "browser-sync start --server --files ."
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
